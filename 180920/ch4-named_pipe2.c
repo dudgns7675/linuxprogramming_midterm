@@ -15,7 +15,7 @@ int main(void){
 		perror("mknod error");
 	}
 
-	prinf("Reader: waiting for a writer.\n");
+	printf("Reader: waiting for a writer.\n");
 	fd = open(FIFO_NAME, O_RDONLY);
 
 	printf("Reader: the writer ready.\n");
@@ -29,6 +29,6 @@ int main(void){
 		}
 	}while(num > 0);
 
-		return 0;
-	}
+	return 0;
 }
+
