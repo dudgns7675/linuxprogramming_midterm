@@ -20,5 +20,8 @@ git branch
 git checkout -b [branch_name] ## -b option create new branch if not exist
 git merge [branch_name] ## merge each other branch
 
+## Remote URL change
+git remote set-url origin [git_address]
+
 ...
 
